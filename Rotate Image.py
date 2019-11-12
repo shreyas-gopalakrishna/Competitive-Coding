@@ -3,6 +3,7 @@
 #        When boundry (4 edges) is reached, change the direction and row number or column number will increase or decrease based on it.
 #        Run loop (4*(end-start+1))-4 times for 1 - 90 degree rotation of outer elements.
 #        Then enter the inner matrix and repeat the above steps.
+#        Simpler Approach: Transpose matrix and then reverse each row 
 class Solution:
     # shreyas
     def display(self,matrix):
